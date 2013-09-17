@@ -131,9 +131,13 @@ lib/libcald_server.so
 lib/libcald_util.so
 lib/libcamera_clientsemc.so
 lib/libcammw.so
+lib/libchokoball.so
 lib/libcnefeatureconfig.so
 lib/libcredential-manager-service.so
+lib/libexcal_core.so
+lib/libexcal_system.so
 lib/libface.so
+lib/libface_wrapper.so
 lib/libfmradio.so
 lib/libfmradio.sony-iris.so
 lib/libgps.utils.so
@@ -289,4 +293,5 @@ vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
 vendor/lib/libssd.so
 vendor/lib/libsurround_proc.so
+vendor/lib/libthermalclient.so
 vendor/lib/libtime_genoff.so
