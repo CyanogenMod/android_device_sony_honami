@@ -3,6 +3,21 @@ on boot
     chown system system /sys/class/leds/wled:backlight/brightness
     chmod 660 /sys/class/leds/wled:backlight/brightness
 
+    # PM8941 flash
+    chown system system /sys/class/misc/pm8941-flash/device/current1
+    chown system system /sys/class/misc/pm8941-flash/device/current2
+    chown system system /sys/class/misc/pm8941-flash/device/fault_status
+    chown system system /sys/class/misc/pm8941-flash/device/fine_current1
+    chown system system /sys/class/misc/pm8941-flash/device/fine_current2
+    chown system system /sys/class/misc/pm8941-flash/device/flash_timer
+    chown system system /sys/class/misc/pm8941-flash/device/mask_clamp_current
+    chown system system /sys/class/misc/pm8941-flash/device/mask_enable
+    chown system system /sys/class/misc/pm8941-flash/device/max_current
+    chown system system /sys/class/misc/pm8941-flash/device/mode
+    chown system system /sys/class/misc/pm8941-flash/device/startup_delay
+    chown system system /sys/class/misc/pm8941-flash/device/strobe
+    chown system system /sys/class/misc/pm8941-flash/device/vph_pwr_droop
+
     # LED
     chown system system /sys/class/leds/led:rgb_red/brightness
     chmod 660 /sys/class/leds/led:rgb_red/brightness
