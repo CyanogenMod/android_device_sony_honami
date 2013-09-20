@@ -130,6 +130,7 @@ lib/libcald_pal.so
 lib/libcald_server.so
 lib/libcald_util.so
 lib/libcamera_clientsemc.so
+lib/libcameralight.so
 lib/libcammw.so
 lib/libchokoball.so
 lib/libcnefeatureconfig.so
