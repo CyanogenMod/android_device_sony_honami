@@ -107,6 +107,8 @@ etc/firmware/tzsuntory.b01
 etc/firmware/tzsuntory.b02
 etc/firmware/tzsuntory.b03
 etc/firmware/tzsuntory.mdt
+lib/camera/libexcal_halctrl_plugin.so
+lib/camera/libexcal_idtctrl_plugin.so
 lib/hw/camera.qcom.so:lib/hw/vendor-camera.qcom.so
 lib/hw/gps.default.so:lib/hw/gps.msm8974.so
 lib/hw/nfc.msm8974.so
