@@ -28,6 +28,7 @@ bin/ta_qmi_service
 bin/taimport
 bin/thermal-engine
 bin/thermald
+bin/time_daemon
 bin/updatemiscta
 bin/usbhub
 bin/usbhub_init
@@ -298,4 +299,4 @@ vendor/lib/libsensor_reg.so
 vendor/lib/libssd.so
 vendor/lib/libsurround_proc.so
 vendor/lib/libthermalclient.so
-vendor/lib/libtime_genoff.so
+obj:vendor/lib/libtime_genoff.so
