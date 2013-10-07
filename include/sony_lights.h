@@ -14,19 +14,7 @@
  * limitations under the License.
  */
 
-char const*const LCD_BACKLIGHT_FILE		= "/sys/class/leds/wled:backlight/brightness";
-char const*const LCD_BACKLIGHT2_FILE		= "/dev/null";
-char const*const RED_LED_FILE			= "/sys/class/leds/led:rgb_red/brightness";
-char const*const GREEN_LED_FILE			= "/sys/class/leds/led:rgb_green/brightness";
-char const*const BLUE_LED_FILE			= "/sys/class/leds/led:rgb_blue/brightness";
-
-char const*const LED_FILE_PATTERN[]		= {
-	"/sys/class/leds/led:rgb_red/pattern",
-	"/sys/class/leds/led:rgb_green/pattern",
-	"/sys/class/leds/led:rgb_blue/pattern",
-};
-
-char const*const PATTERNOFF			= "0,0,0,0";
-
-char const*const ALS_FILE			= "/sys/devices/i2c-0/0-0036/als_enable";
-
+char const*const LCD_BACKLIGHT_FILE  = "/sys/class/leds/wled:backlight/brightness";
+char const*const LCD_BACKLIGHT2_FILE = "/dev/null";
+char const*const MAX_BRIGHTNESS_FILE = "/sys/class/leds/wled:backlight/max_brightness";
+const int LCD_BRIGHTNESS_MIN         = 188;
