@@ -18,19 +18,5 @@ on boot
     chown system system /sys/class/misc/pm8941-flash/device/strobe
     chown system system /sys/class/misc/pm8941-flash/device/vph_pwr_droop
 
-    # LED
-    chown system system /sys/class/leds/led:rgb_red/brightness
-    chmod 660 /sys/class/leds/led:rgb_red/brightness
-    chown system system /sys/class/leds/led:rgb_green/brightness
-    chmod 660 /sys/class/leds/led:rgb_green/brightness
-    chown system system /sys/class/leds/led:rgb_blue/brightness
-    chmod 660 /sys/class/leds/led:rgb_blue/brightness
-    chown system system /sys/class/leds/led:rgb_red/pattern
-    chmod 660 /sys/class/leds/led:rgb_red/pattern
-    chown system system /sys/class/leds/led:rgb_green/pattern
-    chmod 660 /sys/class/leds/led:rgb_green/pattern
-    chown system system /sys/class/leds/led:rgb_blue/pattern
-    chmod 660 /sys/class/leds/led:rgb_blue/pattern
-
     # Vibrator
     chown system system /sys/devices/i2c-2/2-0049/intensity
