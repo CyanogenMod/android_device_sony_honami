@@ -49,7 +49,6 @@ etc/firmware/adsp.b08
 etc/firmware/adsp.b09
 etc/firmware/adsp.b10
 etc/firmware/adsp.b11
-etc/firmware/adsp.b12
 etc/firmware/adsp.mdt
 etc/firmware/cmnlib.b00
 etc/firmware/cmnlib.b01
