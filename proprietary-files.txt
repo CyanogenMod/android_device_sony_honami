@@ -158,7 +158,6 @@ lib/libmmjpeg_interface.so
 lib/libpin-cache.so
 lib/libprotobuf-c.so
 lib/libqomx_core.so
-lib/libqomx_core.so
 lib/libsys-utils.so
 lib/libsysmon.so
 lib/libsysmon_idd.so
