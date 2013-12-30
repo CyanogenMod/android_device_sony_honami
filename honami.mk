@@ -31,19 +31,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-# HW Settings
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/hw_config.sh:system/etc/hw_config.sh \
-    $(LOCAL_PATH)/rootdir/system/etc/pre_hw_config.sh:system/etc/pre_hw_config.sh
-
-# Sony HW monitor
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/sysmon.cfg:system/etc/sysmon.cfg
-
-# Sensors
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/sensors.conf:system/etc/sensors.conf
-
 # Device specific init
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/init.device.rc:root/init.device.rc
@@ -60,19 +47,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf \
     $(LOCAL_PATH)/rootdir/system/etc/snd_soc_msm/snd_soc_msm_Taiko:system/etc/snd_soc_msm/snd_soc_msm_Taiko
-
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg
-
-# Touchpad
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad.idc:system/usr/idc/clearpad.idc \
-    $(LOCAL_PATH)/rootdir/system/usr/idc/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc
-
-# Misc Sony config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/system/etc/ramdump_ssr.xml:system/etc/ramdump_ssr.xml
 
 # Device specific part for two-stage boot
 PRODUCT_COPY_FILES += \
