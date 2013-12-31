@@ -50,8 +50,5 @@ PRODUCT_COPY_FILES += \
 # call dalvik heap config
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
-# call hwui memory config
-$(call inherit-product-if-exists, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
-
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/honami/honami-vendor.mk)
