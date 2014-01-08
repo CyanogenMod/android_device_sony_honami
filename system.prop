@@ -5,4 +5,3 @@ ro.cwm.enable_key_repeat=true
 ro.sf.lcd_density=480
 
 ro.use_data_netmgrd=true
-persist.data.netmgrd.qos.enable=true
