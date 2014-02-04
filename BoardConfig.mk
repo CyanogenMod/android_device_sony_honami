@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # inherit from the common rhine definitions
--include device/sony/rhine-common/BoardConfigCommon.mk
+include device/sony/rhine-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 #-include vendor/sony/honami/BoardConfigVendor.mk
