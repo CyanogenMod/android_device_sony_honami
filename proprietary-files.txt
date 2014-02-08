@@ -5,6 +5,9 @@ bin/sensors.qcom
 bin/updatemiscta
 etc/Handset_cal.acdb
 etc/Speaker_cal.acdb
+etc/firmware/c6902/mba.b00
+etc/firmware/c6902/modem.b01
+etc/firmware/c6902/modem.mdt
 etc/firmware/touch_module_id_0x45.img
 etc/firmware/touch_module_id_0x48.img
 etc/firmware/touch_module_id_0x49.img
