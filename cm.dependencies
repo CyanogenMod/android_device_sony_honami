@@ -1,17 +1,5 @@
 [
   {
-    "repository": "android_kernel_sony_msm8974",
-    "target_path": "kernel/sony/msm8974"
-  },
-  {
-    "repository": "android_device_sony_common",
-    "target_path": "device/sony/common"
-  },
-  {
-    "repository": "android_device_sony_qcom-common",
-    "target_path": "device/sony/qcom-common"
-  },
-  {
     "repository": "android_device_sony_rhine-common",
     "target_path": "device/sony/rhine-common"
   }
