@@ -28,6 +28,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_rhine_honami_row_defconfig
 
+# Recovery
+BOARD_RECOVERY_CWM := true
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
 

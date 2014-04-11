@@ -35,6 +35,6 @@
     <integer name="config_deviceHardwareKeys">32</integer>
 
     <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
+    <!-- <bool name="config_enableTorch">true</bool> -->
 
 </resources>
