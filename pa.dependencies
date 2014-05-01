@@ -31,18 +31,6 @@
     },
     {
         "remote":       "github",
-        "repository":   "CyanogenMod/android_external_exfat",
-        "target_path":  "external/exfat",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_fuse",
-        "target_path":  "external_fuse",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
         "repository":   "CyanogenMod/android_hardware_ti_wlan",
         "target_path":  "hardware/ti/wlan",
         "revision":     "cm-11.0"
