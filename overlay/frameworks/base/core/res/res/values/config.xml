@@ -37,4 +37,7 @@
     <!-- Device supports LED flashlight -->
     <!-- <bool name="config_enableTorch">true</bool> -->
 
+    <!-- SD card is hot-pluggable on this platform -->
+    <bool name="config_batterySdCardAccessibility">true</bool>
+
 </resources>
