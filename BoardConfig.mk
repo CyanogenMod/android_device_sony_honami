@@ -28,6 +28,9 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/honami/bluetooth
 # Kernel properties
 TARGET_KERNEL_CONFIG := cm_rhine_honami_row_defconfig
 
+# External apps on SD
+TARGET_EXTERNAL_APPS = sdcard1
+
 # Recovery
 BOARD_RECOVERY_CWM := true
 
