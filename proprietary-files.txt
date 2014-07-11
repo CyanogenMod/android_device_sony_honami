@@ -52,5 +52,6 @@ vendor/lib/libmmcamera2_isp_modules.so
 vendor/lib/libmmcamera2_sensor_modules.so
 vendor/lib/libmmcamera2_stats_algorithm.so
 vendor/lib/libmmcamera2_stats_modules.so
+vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/liboemcamera.so
 vendor/lib/libsensor1.so
