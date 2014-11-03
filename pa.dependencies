@@ -7,6 +7,12 @@
     },
     {
         "remote":       "github",
+        "repository":   "CyanogenMod/android_device_sony_msm8974-common",
+        "target_path":  "device/sony/msm8974-common",
+        "revision":     "cm-11.0"
+    },
+    {
+        "remote":       "github",
         "repository":   "AOSPA-legacy/android_device_sony_rhine-common",
         "target_path":  "device/sony/rhine-common",
         "revision":     "cm-11.0"
@@ -28,18 +34,6 @@
         "repository":   "CyanogenMod/android_device_qcom_common",
         "target_path":  "device/qcom/common",
         "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_hardware_ti_wlan",
-        "target_path":  "hardware/ti/wlan",
-        "revision":     "cm-11.0"
-    },
-    {
-        "remote":       "github",
-        "repository":   "CyanogenMod/android_external_wpa_supplicant_8_ti",
-        "target_path":  "external/wpa_supplicant_8_ti",
-         "revision":    "cm-11.0"
     },
     {
         "remote":       "github",
