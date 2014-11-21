@@ -23,10 +23,8 @@ etc/firmware/touch_module_id_0x5f.img
 etc/flashled_calc_parameters.cfg
 etc/sensor_def_qcomdev.conf
 etc/sensors_calib.conf
-etc/sysmon.cfg
 lib/libcald_hal.so
 lib/libcameralight.so
-lib/libsysmon_jni.so
 usr/idc/clearpad.idc
 usr/idc/clearpad_pen.idc
 vendor/camera/flash.dat
