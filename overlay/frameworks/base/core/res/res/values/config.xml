@@ -49,7 +49,4 @@
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">96</integer>
 
-    <!-- Device supports LED flashlight -->
-    <bool name="config_enableTorch">true</bool>
-
 </resources>
