@@ -1,5 +1,4 @@
 bin/chargemon
-bin/illumination_service
 bin/sensors.qcom
 bin/updatemiscta
 etc/acdbdata/Liquid/Liquid_Handset_cal.acdb
