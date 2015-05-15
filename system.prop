@@ -1,4 +1,7 @@
 # Graphics
 ro.sf.lcd_density=480
 
+# USB path
+ro.usb.pid_suffix=19E
+
 ro.use_data_netmgrd=true
