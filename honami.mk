@@ -47,6 +47,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
    $(LOCAL_PATH)/thermanager.xml:system/etc/thermanager.xml
 
+# Touchscreen
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/clearpad.idc:system/usr/idc/clearpad.idc \
+   $(LOCAL_PATH)/clearpad_pen.idc:system/usr/idc/clearpad_pen.idc
+
 # call dalvik heap config
 $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-dalvik-heap.mk)
 
